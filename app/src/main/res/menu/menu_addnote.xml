@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/color" android:title="@string/color"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@mipmap/ic_format_color_fill_white_24dp"
+        />
+
+    <item android:id="@+id/like" android:title="@string/addlike"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@mipmap/ic_favorite_outline_white_24dp"
+        />
+
+    <item android:id="@+id/share" android:title="@string/share"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@mipmap/ic_share_white_24dp"
+        />
+</menu>

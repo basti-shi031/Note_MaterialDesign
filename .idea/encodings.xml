@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/AddNoteActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/animUtils/ScrollViewAwareFab.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/application/App.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/fragment/AllFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/fragment/SecondFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/fragment/ThirdFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/model/Note.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/utils/ColorSelectorAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/utils/Constant.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/utils/NoteAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/utils/NoteUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/utils/TabViewPagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/basti/coryphaei/com/mdtest/view/ColorDialog.java" charset="UTF-8" />
+  </component>
+</project>

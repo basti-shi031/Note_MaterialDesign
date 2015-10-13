@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/background"
+        android:transitionName="background">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/title"
+            android:layout_marginLeft="@dimen/min_margin"
+            android:layout_marginTop="@dimen/min_margin"
+            android:layout_marginRight="@dimen/min_margin"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/subhead"
+                android:textColor="@android:color/black"
+                android:background="@null"
+                android:alpha="0.87"
+                android:transitionName="title"
+                android:layout_marginLeft="@dimen/min_margin"
+                android:layout_marginRight="@dimen/min_margin"
+                android:textColorHint="#303030"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="@dimen/min_margin"
+            android:layout_marginTop="@dimen/min_margin"
+            android:layout_marginRight="@dimen/min_margin"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/body2"
+                android:textColor="@android:color/black"
+                android:background="@null"
+                android:alpha="0.87"
+                android:minLines="8"
+                android:layout_marginLeft="@dimen/min_margin"
+                android:gravity="top|left"
+                android:transitionName="content"
+                android:layout_marginRight="@dimen/min_margin"
+                android:layout_marginTop="@dimen/min_margin"
+                android:lineSpacingMultiplier="1.2"
+                android:textColorHint="#303030"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

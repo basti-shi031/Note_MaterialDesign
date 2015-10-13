@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="colorControlActivated">#303030</item>
+<!--        &lt;!&ndash; EditText line color when EditText on-focus&ndash;&gt;
+        <item name="colorControlHighlight">#303030</item>
+        &lt;!&ndash; EditText line color when EditText  in un-focus&ndash;&gt;
+        <item name="colorControlNormal">#FFFFFF</item>-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+</resources>
